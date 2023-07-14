@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./style/style-sportpoint.css">
+  <link rel="stylesheet" href="./style/style-vsedlyasporta.css">
+  <link rel="stylesheet" href="./style/swiper.css">
+  <title>Vsedlyasporta+sportpoint</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container-header">
+      <div class="header__top">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#">О магазине</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Оплата и доставка</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Возврат и обмен</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Блог</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="actions">
+          <div class="actions__item actions__item--geo">Москва</div>
+          <div class="actions__item actions__item--cabinet">
+            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#FEB703">
+              <title />
+              <g id="about">
+                <path d="M16,16A7,7,0,1,0,9,9,7,7,0,0,0,16,16ZM16,4a5,5,0,1,1-5,5A5,5,0,0,1,16,4Z" />
+                <path
+                  d="M17,18H15A11,11,0,0,0,4,29a1,1,0,0,0,1,1H27a1,1,0,0,0,1-1A11,11,0,0,0,17,18ZM6.06,28A9,9,0,0,1,15,20h2a9,9,0,0,1,8.94,8Z" />
+              </g>
+            </svg>
+            Вход/Регистрация
+          </div>
+        </div>
+        <ul class="social-list">
+          <li class="social-list__item">
+            <a href="#" class="">
+              <?xml version="1.0" ?><svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: #4489c8;
+                    }
+
+                    .cls-2 {
+                      fill: #fff;
+                    }
+                  </style>
+                </defs>
+                <title />
+                <g data-name="32-vk" id="_32-vk">
+                  <rect class="cls-1" height="64" rx="11.2" ry="11.2" width="64" />
+                  <path class="cls-2"
+                    d="M9.62,19.77H17.3a.79.79,0,0,1,.74.51c.85,2.19,4.38,10.76,7.61,11.46,2.4,0,1.55-11.4-1.5-11.4-.8,0,1.42-1.42,1.57-1.48a16.38,16.38,0,0,1,8.66,0c1.53.64,1.79,2.43,1.83,3.95s-1.7,8,.59,8.7c3,.92,6.86-8.49,7.76-10.8a.79.79,0,0,1,.74-.5h8.55a.8.8,0,0,1,.74,1.11,74.74,74.74,0,0,1-6.31,11.52,1.59,1.59,0,0,0,.16,2C51,37.58,58,45.34,54,45.34H45.37a1.57,1.57,0,0,1-1.18-.53c-1.34-1.48-5.24-5.6-7-5.27-1.46.27-1.6,2.75-1.53,4.37a1.6,1.6,0,0,1-1.48,1.68c-1.53.09-3.62.13-3.81.12-6.1-.39-9.71-4.46-13.16-9A56.33,56.33,0,0,1,8.86,20.83.81.81,0,0,1,9.62,19.77Z" />
+                </g>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a href="#" class="">
+              <svg xmlns="http://www.w3.org/2000/svg" aria-label="Telegram" role="img" viewBox="0 0 512 512">
+                <rect width="512" height="512" rx="15%" fill="#37aee2" />
+                <path fill="#c8daea" d="M199 404c-11 0-10-4-13-14l-32-105 245-144" />
+                <path fill="#a9c9dd" d="M199 404c7 0 11-4 16-8l45-43-56-34" />
+                <path fill="#f6fbfe"
+                  d="M204 319l135 99c14 9 26 4 30-14l55-258c5-22-9-32-24-25L79 245c-21 8-21 21-4 26l83 26 190-121c9-5 17-3 11 4" />
+              </svg>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a href="#" class="">
+              <img src="./images/ok.png" alt="ok">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="header__bottom">
+        <a class="logo-link" href="#">
+          <img alt="logo-link__img" src="./images/logo.png">
+        </a>
+        <form class="form" action="">
+          <input class="input-reset from__input" type="text" placeholder="Поиск товара">
+          <button class="btn-reset from__button">Искать</button>
+        </form>
+        <div class="contact">
+          <a href="tel:+78007074465" class="contact__phone">8-(800)-707-44-65</a>
+          <button class="btn-reset contact__btn">Заказть обратный звонок</button>
+          <a href="mailto:info@alcap.ru" class="contact__phone">info@alcap.ru</a>
+        </div>
+        <div class="informer">
+          <a class="favorite header__favorite" href="#">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M5 7.8C5 6.11984 5 5.27976 5.32698 4.63803C5.6146 4.07354 6.07354 3.6146 6.63803 3.32698C7.27976 3 8.11984 3 9.8 3H14.2C15.8802 3 16.7202 3 17.362 3.32698C17.9265 3.6146 18.3854 4.07354 18.673 4.63803C19 5.27976 19 6.11984 19 7.8V21L12 17L5 21V7.8Z"
+                stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </a>
+          <a class="cart" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+              <path
+                d="M5.50835165,12.5914912 C5.5072855,12.5857255 5.50631828,12.5799252 5.5054518,12.5740921 L4.28533671,5.25340152 C4.16478972,4.53011956 3.53900455,4 2.80574582,4 L2.5,4 C2.22385763,4 2,3.77614237 2,3.5 C2,3.22385763 2.22385763,3 2.5,3 L2.80574582,3 C3.99756372,3 5.0190253,3.84029234 5.25525588,5 L21.5,5 C21.8321894,5 22.0720214,5.31795246 21.980762,5.63736056 L19.980762,12.6373606 C19.9194332,12.8520113 19.7232402,13 19.5,13 L6.59023021,13 L6.71466329,13.7465985 C6.83521028,14.4698804 7.46099545,15 8.19425418,15 L19.5,15 C19.7761424,15 20,15.2238576 20,15.5 C20,15.7761424 19.7761424,16 19.5,16 L8.19425418,16 C6.97215629,16 5.92918102,15.1164674 5.72826937,13.9109975 L5.5083519,12.5914927 L5.50835165,12.5914912 Z M5.42356354,6 L6.42356354,12 L19.1228493,12 L20.837135,6 L5.42356354,6 Z M8,21 C6.8954305,21 6,20.1045695 6,19 C6,17.8954305 6.8954305,17 8,17 C9.1045695,17 10,17.8954305 10,19 C10,20.1045695 9.1045695,21 8,21 Z M8,20 C8.55228475,20 9,19.5522847 9,19 C9,18.4477153 8.55228475,18 8,18 C7.44771525,18 7,18.4477153 7,19 C7,19.5522847 7.44771525,20 8,20 Z M17,21 C15.8954305,21 15,20.1045695 15,19 C15,17.8954305 15.8954305,17 17,17 C18.1045695,17 19,17.8954305 19,19 C19,20.1045695 18.1045695,21 17,21 Z M17,20 C17.5522847,20 18,19.5522847 18,19 C18,18.4477153 17.5522847,18 17,18 C16.4477153,18 16,18.4477153 16,19 C16,19.5522847 16.4477153,20 17,20 Z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="category-menu-level-1">
+      <div class="container">
+        <nav class="nav">
+          <ul class="category-menu-level-1__list">
+            <li class="category-menu-level-1__item">
+              <a class="category-menu-level-1__link" href="#">
+                Новинки
+              </a>
+              <div class="category-menu-level-2">
+                <nav class="nav">
+                  <ul class="category-menu-level-2__list">
+                    <li class="category-menu-level-2__item">
+                      <a class="category-menu-level-2__link" href="#">Пункт 1</a>
+                    </li>
+                    <li class="category-menu-level-2__item">
+                      <a class="category-menu-level-2__link" href="#">Пункт 2</a>
+                    </li>
+                    <li class="category-menu-level-2__item">
+                      <a class="category-menu-level-2__link" href="#">Пункт 3</a>
+                    </li>
+                    <li class="category-menu-level-2__item">
+                      <a class="category-menu-level-2__link" href="#">Пункт 4</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </li>
+            <li class="category-menu-level-1__item">
+              <a class="category-menu-level-1__link" href="#">
+                Доски для сапбординга
+              </a>
+              <div class="category-menu-level-2">
+                <nav class="nav">
+                  <ul class="category-menu-level-2__list">
+                    <li class="category-menu-level-2__item">
+                      <a class="category-menu-level-2__link" href="#">Пункт 1</a>
+                    </li>
+                    <li class="category-menu-level-2__item">
+                      <a class="category-menu-level-2__link" href="#">Пункт 2</a>
+                    </li>
+                    <li class="category-menu-level-2__item">
+                      <a class="category-menu-level-2__link" href="#">Пункт 3</a>
+                    </li>
+                    <li class="category-menu-level-2__item">
+                      <a class="category-menu-level-2__link" href="#">Пункт 4</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </li>
+            <li class="category-menu-level-1__item">
+              <a class="category-menu-level-1__link" href="#">
+                Спортивные бутылки шейкеры
+              </a>
+              <div class="category-menu-level-2">
+                <nav class="nav">
+                  <ul class="category-menu-level-2__list">
+                    <li class="category-menu-level-2__item">
+                      <a class="category-menu-level-2__link" href="#">Пункт 1</a>
+                    </li>
+                    <li class="category-menu-level-2__item">
+                      <a class="category-menu-level-2__link" href="#">Пункт 2</a>
+                    </li>
+                    <li class="category-menu-level-2__item">
+                      <a class="category-menu-level-2__link" href="#">Пункт 3</a>
+                    </li>
+                    <li class="category-menu-level-2__item">
+                      <a class="category-menu-level-2__link" href="#">Пункт 4</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </li>
+            <li class="category-menu-level-1__item">
+              <a class="category-menu-level-1__link" href="#">
+                Фитнес
+              </a>
+              <div class="category-menu-level-2">
+                <nav class="nav">
+                  <ul class="category-menu-level-2__list">
+                    <li class="category-menu-level-2__item">
+                      <a class="category-menu-level-2__link" href="#">Пункт 1</a>
+                    </li>
+                    <li class="category-menu-level-2__item">
+                      <a class="category-menu-level-2__link" href="#">Пункт 2</a>
+                    </li>
+                    <li class="category-menu-level-2__item">
+                      <a class="category-menu-level-2__link" href="#">Пункт 3</a>
+                    </li>
+                    <li class="category-menu-level-2__item">
+                      <a class="category-menu-level-2__link" href="#">Пункт 4</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </li>
+            <li class="category-menu-level-1__item">
+              <a class="category-menu-level-1__link" href="#">
+                Настольный теннис
+              </a>
+              <div class="category-menu-level-2">
+                <nav class="nav">
+                  <ul class="category-menu-level-2__list">
+                    <li class="category-menu-level-2__item">
+                      <a class="category-menu-level-2__link" href="#">Пункт 1</a>
+                    </li>
+                    <li class="category-menu-level-2__item">
+                      <a class="category-menu-level-2__link" href="#">Пункт 2</a>
+                    </li>
+                    <li class="category-menu-level-2__item">
+                      <a class="category-menu-level-2__link" href="#">Пункт 3</a>
+                    </li>
+                    <li class="category-menu-level-2__item">
+                      <a class="category-menu-level-2__link" href="#">Пункт 4</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </li>
+            <li class="category-menu-level-1__item">
+              <a class="category-menu-level-1__link" href="#">
+                Футбол
+              </a>
+              <div class="category-menu-level-2">
+                <nav class="nav">
+                  <ul class="category-menu-level-2__list">
+                    <li class="category-menu-level-2__item">
+                      <a class="category-menu-level-2__link" href="#">Пункт 1</a>
+                    </li>
+                    <li class="category-menu-level-2__item">
+                      <a class="category-menu-level-2__link" href="#">Пункт 2</a>
+                    </li>
+                    <li class="category-menu-level-2__item">
+                      <a class="category-menu-level-2__link" href="#">Пункт 3</a>
+                    </li>
+                    <li class="category-menu-level-2__item">
+                      <a class="category-menu-level-2__link" href="#">Пункт 4</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <!-- Slider main container -->
+        <div class="swiper hero__swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="./images/slide-image-1.png" alt="картинка1">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/slide-image-1.png" alt="картинка1">
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/slide-image-1.png" alt="картинка1">
+            </div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev">
+            <svg version="1.1" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129"
+              xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129">
+              <path
+                d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z" />
+            </svg>
+          </div>
+          <div class="swiper-button-next">
+            <svg version="1.1" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129"
+              xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129">
+              <path
+                d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="category">
+      <div class="container">
+        <h2 class="title-min">Популярные картегории</h2>
+        <div class="category__wrapper">
+          <div class="category__item category__item--big">
+            <a class="category__link" href="#"></a>
+            <img class="category__img" src="./images/turnik-img1.jpg" alt="категория1">
+            <h3 class="category__title">Новинки</h3>
+          </div>
+          <div class="category__item category__item--small">
+            <a class="category__link" href="#"></a>
+            <img class="category__img" src="./images/novelty-img1.jpg" alt="категория1">
+            <h3 class="category__title">Саппординг</h3>
+          </div>
+          <div class="category__item category__item--small">
+            <a class="category__link" href="#"></a>
+            <img class="category__img" src="./images/batut-img1.jpg" alt="категория1">
+            <h3 class="category__title">Батуты</h3>
+          </div>
+          <div class="category__item category__item--small">
+            <a class="category__link" href="#"></a>
+            <img class="category__img" src="./images/fitness-img1.png" alt="категория1">
+            <h3 class="category__title">Фитнес</h3>
+          </div>
+          <div class="category__item category__item--small">
+            <a class="category__link" href="#"></a>
+            <img class="category__img" src="./images/butci-img1.jpg" alt="категория1">
+            <h3 class="category__title">Футбол</h3>
+          </div>
+          <div class="category__item category__item--big">
+            <a class="category__link" href="#"></a>
+            <img class="category__img" src="./images/rolik-nabor-img1.jpg" alt="категория1">
+            <h3 class="category__title">Роликовые коньки,наборы,защита,шлемы</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="novelties">
+      <div class="container">
+        <h2 class="title-min">Новинки</h2>
+        <!-- Slider main container -->
+        <div class="swiper novelties__swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="novelties-card">
+                <div class="novelties-card__imgbox">
+                  <img class="novelties-card__img" src="./images/novelty-img1.jpg" alt="картинка1">
+                </div>
+                <div class="novelties-card__body">
+                  <ul class="novelties-card__list">
+                    <li class="novelties-card__item novelties-card__item--hit">хит</li>
+                    <li class="novelties-card__item novelties-card__item--novelti">новика</li>
+                    <li class="novelties-card__item novelties-card__item--sale">-20%</li>
+                  </ul>
+                  <a class="novelties-card__link" href="#">
+                    <h3 class="novelties-card__title">Надувная SUP-доска Сапборд (SUP board) AQUATIC-11,6 WIND MAX</h3>
+                  </a>
+                  <span class="novelties-card__price">15 999 &#x20bd;</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="novelties-card">
+                <div class="novelties-card__imgbox">
+                  <img class="novelties-card__img" src="./images/novelty-img2.jpg" alt="картинка1">
+                </div>
+                <div class="novelties-card__body">
+                  <ul class="novelties-card__list">
+                    <li class="novelties-card__item novelties-card__item--hit">хит</li>
+                    <li class="novelties-card__item novelties-card__item--novelti">новика</li>
+                    <li class="novelties-card__item novelties-card__item--sale">-20%</li>
+                  </ul>
+                  <a class="novelties-card__link" href="#">
+                    <h3 class="novelties-card__title">Кимоно ДЗЮДО STANDARD белый</h3>
+                  </a>
+                  <ul class="sizes-list">
+                    <li class="sizes-list__item">115</li>
+                    <li class="sizes-list__item">120</li>
+                    <li class="sizes-list__item">130</li>
+                    <li class="sizes-list__item">135</li>
+                    <li class="sizes-list__item">140</li>
+                    <li class="sizes-list__item">145</li>
+                  </ul>
+                  <span class="novelties-card__price">15 999 &#x20bd;</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="novelties-card">
+                <div class="novelties-card__imgbox">
+                  <img class="novelties-card__img" src="./images/novelty-img3.jpg" alt="картинка1">
+                </div>
+                <div class="novelties-card__body">
+                  <ul class="novelties-card__list">
+                    <li class="novelties-card__item novelties-card__item--hit">хит</li>
+                    <li class="novelties-card__item novelties-card__item--novelti">новика</li>
+                    <li class="novelties-card__item novelties-card__item--sale">-20%</li>
+                  </ul>
+                  <a class="novelties-card__link" href="#">
+                    <h3 class="novelties-card__title">Куртка САМБО TRAINING красный</h3>
+                  </a>
+                  <ul class="sizes-list">
+                    <li class="sizes-list__item">115</li>
+                    <li class="sizes-list__item">120</li>
+                    <li class="sizes-list__item">130</li>
+                    <li class="sizes-list__item">135</li>
+                    <li class="sizes-list__item">140</li>
+                    <li class="sizes-list__item">145</li>
+                  </ul>
+                  <span class="novelties-card__price">9 999 &#x20bd;</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="novelties-card">
+                <div class="novelties-card__imgbox">
+                  <img class="novelties-card__img" src="./images/novelty-img4.jpg" alt="картинка1">
+                </div>
+                <div class="novelties-card__body">
+                  <ul class="novelties-card__list">
+                    <li class="novelties-card__item novelties-card__item--hit">хит</li>
+                    <li class="novelties-card__item novelties-card__item--novelti">новика</li>
+                    <li class="novelties-card__item novelties-card__item--sale">-20%</li>
+                  </ul>
+                  <a class="novelties-card__link" href="#">
+                    <h3 class="novelties-card__title">Самбовки БНЗ-05КС красный/синий</h3>
+                  </a>
+                  <ul class="sizes-list">
+                    <li class="sizes-list__item">33</li>
+                    <li class="sizes-list__item">34</li>
+                    <li class="sizes-list__item">35</li>
+                    <li class="sizes-list__item">36</li>
+                    <li class="sizes-list__item">37</li>
+                    <li class="sizes-list__item">38</li>
+                  </ul>
+                  <span class="novelties-card__price">25 999 &#x20bd;</span>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="novelties-card">
+                <div class="novelties-card__imgbox">
+                  <img class="novelties-card__img" src="./images/novelty-img1.jpg" alt="картинка1">
+                </div>
+                <div class="novelties-card__body">
+                  <ul class="novelties-card__list">
+                    <li class="novelties-card__item novelties-card__item--hit">хит</li>
+                    <li class="novelties-card__item novelties-card__item--novelti">новика</li>
+                    <li class="novelties-card__item novelties-card__item--sale">-20%</li>
+                  </ul>
+                  <a class="novelties-card__link" href="#">
+                    <h3 class="novelties-card__title">Надувная SUP-доска Сапборд (SUP board) AQUATIC-11,6 WIND MAX</h3>
+                  </a>
+                  <span class="novelties-card__price">15 999 &#x20bd;</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev">
+            <svg version="1.1" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129"
+              xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129">
+              <path
+                d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z" />
+            </svg>
+          </div>
+          <div class="swiper-button-next">
+            <svg version="1.1" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129"
+              xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129">
+              <path
+                d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="offers">
+      <div class="container">
+        <h2 class="title-main">АЛЬФА КАПРИЗ ОПТ - CПОРТИВНЫЕ ТОВАРЫ ОПТОМ , ПО ВЫГОДНОЙ ЦЕНЕ</h2>
+        </h2>
+        <p class="offers__subtitle">заботимся об удобстве покупателей</p>
+        <div class="offers-tabs">
+          <!-- <div class="offers-tabs__buttons">
+            <button class="offers-tabs__button" data-tab="tab-1">Интернет-магазин</button>
+            <button class="offers-tabs__button" data-tab="tab-2">Сервисный центр</button>
+          </div> -->
+          <div class="offers-tabs__content" data-content="tab-1">
+            <div class="offers-tabs__card">
+              <svg width="40" height="40" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_389_18875)">
+                  <path
+                    d="M19.1523 7.25427H15.0031L12.6756 1.92486C12.5462 1.62833 12.2008 1.49282 11.9042 1.62239C11.6076 1.75189 11.4722 2.09732 11.6017 2.39388L13.7244 7.25431H6.27564L8.3983 2.39388C8.52779 2.09732 8.3924 1.75193 8.09584 1.62239C7.79932 1.49282 7.45385 1.62825 7.32439 1.92486L4.99689 7.25427H0.847715C0.304942 7.25427 -0.0978707 7.74564 0.0208793 8.26286L2.20584 17.7797C2.2926 18.1576 2.63611 18.4261 3.03268 18.4261H16.9674C17.3639 18.4261 17.7074 18.1576 17.7942 17.7797L19.9792 8.26286C20.0979 7.74568 19.6951 7.25427 19.1523 7.25427ZM5.10713 9.0513C5.02885 9.0513 4.94928 9.03552 4.87291 9.00216C4.57635 8.87267 4.44092 8.52728 4.57045 8.23068L5.01061 7.22278H6.28936L5.64436 8.69966C5.54822 8.91993 5.33299 9.0513 5.10713 9.0513ZM7.07033 15.3011C7.07033 15.6247 6.80799 15.8871 6.48439 15.8871C6.1608 15.8871 5.89846 15.6247 5.89846 15.3011V11.0043C5.89846 10.6807 6.1608 10.4183 6.48439 10.4183C6.80799 10.4183 7.07033 10.6807 7.07033 11.0043V15.3011ZM10.586 15.3011C10.586 15.6247 10.3236 15.8871 10 15.8871C9.67643 15.8871 9.41408 15.6247 9.41408 15.3011V11.0043C9.41408 10.6807 9.67643 10.4183 10 10.4183C10.3236 10.4183 10.586 10.6807 10.586 11.0043V15.3011ZM14.1016 15.3011C14.1016 15.6247 13.8392 15.8871 13.5156 15.8871C13.1921 15.8871 12.9297 15.6247 12.9297 15.3011V11.0043C12.9297 10.6807 13.1921 10.4183 13.5156 10.4183C13.8392 10.4183 14.1016 10.6807 14.1016 11.0043V15.3011ZM15.1271 9.00216C15.0508 9.03552 14.9712 9.0513 14.8929 9.0513C14.6671 9.0513 14.4518 8.91997 14.3556 8.6997L13.7106 7.22282H14.9894L15.4296 8.23071C15.5591 8.52728 15.4237 8.87267 15.1271 9.00216Z"
+                    fill="#6F73EE" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_389_18875">
+                    <rect width="20" height="20" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <p class="offers-tabs__mintitle">Более 15 000 наименования спортивных товаров</p>
+              <p class="offers-tabs__description">
+                Вы можете купить у нас товары не только те, которые мы заказываем под
+                собственными брендами на фабриках в Китае, Пакистане, Таджикистане
+                и России, но и товары практически всех российских производителей, по
+                их же ценам, благодаря нашим с ними партнёрским программам
+              </p>
+            </div>
+            <div class="offers-tabs__card">
+              <svg width="40" height="40" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_199_2341)">
+                  <path
+                    d="M20.3125 16.6667C17.7281 16.6667 15.625 14.5635 15.625 11.9792C15.625 9.39479 17.7281 7.29167 20.3125 7.29167H22.9167V5.98958C22.9167 4.40937 21.6323 3.125 20.0521 3.125H2.86458C1.28438 3.125 0 4.40937 0 5.98958V19.0104C0 20.5906 1.28438 21.875 2.86458 21.875H20.0521C21.6323 21.875 22.9167 20.5906 22.9167 19.0104V16.6667H20.3125Z"
+                    fill="#6F73EE" />
+                  <path
+                    d="M24.2187 8.85419H20.3125C18.5896 8.85419 17.1875 10.2563 17.1875 11.9792C17.1875 13.7021 18.5896 15.1042 20.3125 15.1042H24.2187C24.65 15.1042 25 14.7542 25 14.3229V9.63544C25 9.20419 24.65 8.85419 24.2187 8.85419ZM20.3125 13.0209C19.7375 13.0209 19.2708 12.5542 19.2708 11.9792C19.2708 11.4042 19.7375 10.9375 20.3125 10.9375C20.8875 10.9375 21.3542 11.4042 21.3542 11.9792C21.3542 12.5542 20.8875 13.0209 20.3125 13.0209Z"
+                    fill="#6F73EE" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_199_2341">
+                    <rect width="25" height="25" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <p class="offers-tabs__mintitle"> Цена из первых рук и персональные скидки</p>
+              <p class="offers-tabs__description">
+                Мы всегда снизим цену, если это объективно, если конкурент
+                не «сливает» товар в безвыходной ситуации
+              </p>
+            </div>
+            <div class="offers-tabs__card">
+              <svg width="40" height="40" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M25 12.5141L22.8604 9.72694L23.339 6.2641L20.0732 4.96905L18.7782 1.70329L15.3153 2.18189L12.5 0.0140991L9.71284 2.15374L6.25 1.67514L4.95495 4.9409L1.68919 6.23595L2.16779 9.69878L0 12.5141L2.13964 15.3013L1.66104 18.7641L4.9268 20.0591L6.22185 23.3249L9.68468 22.8463L12.4718 24.9859L15.259 22.8463L18.7218 23.3249L20.0169 20.0591L23.2827 18.7359L22.8041 15.2731L25 12.5141ZM11.4865 16.5682L7.31982 13.1335L8.22072 12.0355L11.3176 14.5693L16.6104 8.46005L17.6802 9.3891L11.4865 16.5682Z"
+                  fill="#6F73EE" />
+              </svg>
+              <p class="offers-tabs__mintitle"> Бесплатная доставка товара до транспортной компании.
+              </p>
+              <p class="offers-tabs__description">
+                После подтверждения Вашего заказа товар сразу же поступает
+                на сборку и ставится в отгрузку на утро следующего дня
+                на нашем складе
+              </p>
+            </div>
+            <div class="offers-tabs__card">
+              <svg width="40" height="40" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_199_2363)">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M18.4024 6.49967V0.732231C18.4024 0.327873 18.0746 0 17.6702 0H12.7254V5.56831C12.7254 6.09436 12.1645 6.49948 11.6159 6.19602L9.22466 4.98524L6.78516 6.22044C6.29363 6.46877 5.72524 6.10085 5.72562 5.56831L5.72429 0H0.779106C0.374748 0 0.046875 0.327873 0.046875 0.732231V17.6233C0.046875 18.0277 0.374748 18.3556 0.779106 18.3556H10.3273C9.87983 17.1701 9.60994 15.9914 9.60994 14.9408C9.60994 10.1448 13.5986 6.30722 18.4024 6.49967Z"
+                    fill="#6F73EE" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M9.55261 3.51429L11.2597 4.3787V0H7.1875V4.3787L8.89343 3.51505C9.09332 3.41377 9.33708 3.40576 9.55261 3.51429Z"
+                    fill="#6F73EE" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M18.0578 7.95728C14.2011 7.95728 11.0742 11.0842 11.0742 14.9408C11.0742 16.7837 12.1175 19.2148 13.4485 21.2006C14.8786 23.3343 16.7093 25 18.0578 25C19.4063 25 21.237 23.3343 22.6671 21.2006C23.998 19.2148 25.0414 16.7837 25.0414 14.9408C25.0415 11.0842 21.9146 7.95728 18.0578 7.95728ZM18.0578 17.6287C16.5737 17.6287 15.3701 16.4251 15.3701 14.9408C15.3701 13.4567 16.5737 12.2534 18.0578 12.2534C19.5419 12.2534 20.7454 13.4567 20.7454 14.9408C20.7454 16.4251 19.5421 17.6287 18.0578 17.6287Z"
+                    fill="#6F73EE" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M19.2821 14.9408C19.2821 15.6164 18.7345 16.164 18.0589 16.164C17.3835 16.164 16.8359 15.6164 16.8359 14.9408C16.8359 14.2654 17.3835 13.7178 18.0589 13.7178C18.7345 13.7178 19.2821 14.2654 19.2821 14.9408Z"
+                    fill="#6F73EE" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_199_2363">
+                    <rect width="25" height="25" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <p class="offers-tabs__mintitle">Автоматизация размещения и контроля доставки Ваших заказов
+              </p>
+              <p class="offers-tabs__description">
+                В личном кабинете нашего оптового сайта в режиме on-line Вы можете
+                сформировать и отправить нам свой заказ, после чего произойдет его
+                автоматическое резервирование на складе. После его проверки Вашим
+                личным менеджером заказ оперативно поступает на сборку и отгрузку.
+                Прохождение заказа всех стадий обработки Вы можете отследить
+                в вашем личном кабинете
+              </p>
+            </div>
+            <div class="offers-tabs__card">
+              <svg width="40" height="40" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M10.8546 9.70644C11.819 8.66043 12.3503 7.25734 12.3503 5.75522C12.3503 2.89523 10.3075 0 6.40246 0C4.58512 0 3.05198 0.624205 1.96855 1.80509C1.00885 2.85126 0.480469 4.25404 0.480469 5.75522C0.480469 8.61552 2.51463 11.5106 6.40246 11.5106C8.22658 11.5107 9.76643 10.8869 10.8546 9.70644ZM6.40246 2.67599C8.54211 2.67599 9.51655 4.27322 9.51655 5.75725C9.51655 6.56452 9.24491 7.31183 8.75122 7.86127C8.20046 8.47495 7.40005 8.79945 6.43716 8.79945C4.2434 8.79945 3.24401 7.20237 3.24401 5.7185C3.24401 4.2043 4.22078 2.67599 6.40246 2.67599Z"
+                  fill="#6F73EE" />
+                <path
+                  d="M20.6066 2.22015C20.2527 2.22655 19.7695 2.44719 19.5328 2.71033L1.96559 22.242C1.72896 22.5053 1.89659 22.8744 2.25048 22.8744H4.54973C4.90362 22.8744 5.38632 22.6586 5.62256 22.3951L23.0812 2.86736C23.3174 2.6036 23.3017 2.17447 22.7169 2.17462L20.6066 2.22015Z"
+                  fill="#6F73EE" />
+                <path
+                  d="M18.6843 13.7083C16.902 13.7083 15.3979 14.321 14.335 15.4793C13.3936 16.5052 12.875 17.8816 12.875 19.3542C12.875 22.1598 14.8705 25 18.6843 25C20.4742 25 21.9844 24.3879 23.052 23.2301C23.9982 22.2039 24.5192 20.8274 24.5192 19.3542C24.5192 16.5487 22.515 13.7083 18.6843 13.7083ZM18.7187 22.4091C16.5844 22.4091 15.6119 20.8064 15.6119 19.3179C15.6119 18.5073 15.8834 17.7571 16.3767 17.2056C16.9266 16.5901 17.7245 16.2649 18.6843 16.2649C20.8188 16.2649 21.7909 17.8673 21.7909 19.3563C21.7909 20.1667 21.5193 20.917 21.0264 21.4685C20.4763 22.0839 19.6783 22.4091 18.7187 22.4091Z"
+                  fill="#6F73EE" />
+              </svg>
+              <p class="offers-tabs__mintitle">
+                Отсрочки платежей. Забирайте сейчас - платите потом!
+              </p>
+              <p class="offers-tabs__description">
+                Партнёрам, которым мы доверяем предоставляем товарный
+                кредит в виде отсрочек платежей
+              </p>
+              <a href="#" class="link offers-tabs__installment-plan">Подробнее про условия рассрочки</a>
+            </div>
+            <!-- <div class="offers-tabs__card offers-tabs__card--incatalog">
+              <svg class="offers-tabs__svg">
+                <use xlink:href="img/sprite.svg#cart-blue"></use>
+              </svg>
+              <p class="offers-tabs__mintitle">Больше в каталоге</p>
+              <a class="link offers-tabs__link-catalog" href="#">Перейти</a>
+            </div> -->
+          </div>
+        </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__coll">
+        <a class="footer__phone" href="tel:+74957076266">+7 (495) 707 62 66</a>
+        <a class="footer__phone" href="tel:+74994810601">+7 (499) 481 06 01</a>
+        <a class="footer__phone" href="tel:+74994802296">+7 (499) 480 22 96</a>
+        <button class="btn-reset footer__button-call">Заказать звонок</button>
+        <a href="mailto:info@alcap.ru" class="footer__email">info@alcap.ru</a>
+        <ul class="social-list">
+          <li class="social-list__item">
+            <a href="#" class="">
+              <?xml version="1.0" ?><svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: #4489c8;
+                    }
+
+                    .cls-2 {
+                      fill: #fff;
+                    }
+                  </style>
+                </defs>
+                <title />
+                <g data-name="32-vk" id="_32-vk">
+                  <rect class="cls-1" height="64" rx="11.2" ry="11.2" width="64" />
+                  <path class="cls-2"
+                    d="M9.62,19.77H17.3a.79.79,0,0,1,.74.51c.85,2.19,4.38,10.76,7.61,11.46,2.4,0,1.55-11.4-1.5-11.4-.8,0,1.42-1.42,1.57-1.48a16.38,16.38,0,0,1,8.66,0c1.53.64,1.79,2.43,1.83,3.95s-1.7,8,.59,8.7c3,.92,6.86-8.49,7.76-10.8a.79.79,0,0,1,.74-.5h8.55a.8.8,0,0,1,.74,1.11,74.74,74.74,0,0,1-6.31,11.52,1.59,1.59,0,0,0,.16,2C51,37.58,58,45.34,54,45.34H45.37a1.57,1.57,0,0,1-1.18-.53c-1.34-1.48-5.24-5.6-7-5.27-1.46.27-1.6,2.75-1.53,4.37a1.6,1.6,0,0,1-1.48,1.68c-1.53.09-3.62.13-3.81.12-6.1-.39-9.71-4.46-13.16-9A56.33,56.33,0,0,1,8.86,20.83.81.81,0,0,1,9.62,19.77Z" />
+                </g>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a href="#" class="">
+              <svg xmlns="http://www.w3.org/2000/svg" aria-label="Telegram" role="img" viewBox="0 0 512 512">
+                <rect width="512" height="512" rx="15%" fill="#37aee2" />
+                <path fill="#c8daea" d="M199 404c-11 0-10-4-13-14l-32-105 245-144" />
+                <path fill="#a9c9dd" d="M199 404c7 0 11-4 16-8l45-43-56-34" />
+                <path fill="#f6fbfe"
+                  d="M204 319l135 99c14 9 26 4 30-14l55-258c5-22-9-32-24-25L79 245c-21 8-21 21-4 26l83 26 190-121c9-5 17-3 11 4" />
+              </svg>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a href="#" class="">
+              <img src="./images/ok.png" alt="ok">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__adress">
+        <h4 class="footer__title-min footer__title-min--adress">Наш адресс</h4>
+        <p class="footer__adress">127540, г. Москва,
+          ул. Дубнинская,
+          д. 10, корп. 1</p>
+      </div>
+      <div class="footer__time">
+        <h4 class="footer__title-min footer__title-min--clock">Часы работы</h4>
+        <p class="footer__adress">Пн - Пт с 9.00 -18.00</p>
+        <button class="btn-reset footer__btn">Сотрудничество</button>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="./js/swiper.js"></script>
+</body>
+
+</html>
